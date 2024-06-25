@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: work sans;
+
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(229, 227, 227);
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-image: url(pexels-codioful-7130469.jpg);
+  align-items: flex-end;
+  padding: 0 90px;
+  padding-top: 150px;
+  gap: 80px;
+}
+
+.left {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0;
+  /* background-color: aqua; */
+}
+
+
+
+.left h1 {
+  font-size: 140px;
+  font-weight: 400;
+  line-height: 155px
+}
+
+
+.left h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-left {
+  /* height: 40%; */
+  width: 100%;
+  /* background-color: #0000ff; */
+}
+
+.download {
+  width: fit-content;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 1px solid black;
+  /* background-color: blueviolet; */
+}
+
+.download h5 {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.download a {
+  text-decoration: none;
+}
+
+.download i {
+  height: 30px;
+  width: 30px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  padding-right: 8px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.left h2 {
+  margin-top: 50px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 20px;
+  width: 50%;
+  font-weight: 550;
+  color: #252525b3;
+  line-height: 30px;
+}
+
+.right {
+  height: 90%;
+  width: 30%;
+  position: relative;
+  /* background-color: #8c00ff; */
+}
+
+.right-top {
+  height: 49px;
+  width: 100%;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-top h4 {
+  font-size: 30px;
+  font-weight: 500;
+
+}
+
+.right-top h5 {
+  font-size: 15px;
+  font-weight: 400;
+
+}
+
+.right-top h5 i {
+  color: goldenrod;
+
+}
+
+.right img {
+  width: 100%;
+  height: 92.3%;
+  object-fit: cover;
+}
+
+.crical-logo {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(20, 20, 34, 0.909);
+  color: white;
+  right: -15%;
+  top: 20%;
+  position: absolute;
+}
+
+.crical-logo h5 {
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.crical-logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.rotated {
+  transform: rotate(180deg);
+  left: -10%;
+  bottom: 10%;
+  position: absolute;
+  rotate: 90deg;
+  transform-origin: 0 0;
+
+}
